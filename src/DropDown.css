@@ -1,0 +1,45 @@
+.dropdown{
+    position: absolute;
+    top: 50px;
+    right: 234px;
+    z-index: 1111;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    width: 250px;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.mainblock{
+    display: flex;
+    margin: 10px 0 10px 0;
+    border-bottom: 2px solid rgb(247, 243, 243);
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.mainblock > .avatar{
+    padding-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.button{
+    width: 95%;
+    padding: 5px;
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    border:1px solid blue;
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.button:hover{
+    background-color: rgb(168, 220, 252);
+    
+}
